@@ -11,7 +11,7 @@ display WeatherMapPopupWindow by javascript
 4. you can pass a address and it will display the address's weather info on the map
 5. the weather info is 5 days/3 hour forecast, provided by http://api.openweathermap.org
 
-## Uasage:
+## Usage:
 1. you should replace the openWeatherMapKey with yours. rigester your key on the http://api.openweathermap.org
 2. JQuery required, add JQury to your html
 3. Include <script src="https://maps.googleapis.com/maps/api/js?key=[YourGoogleApiKey]"></script>
