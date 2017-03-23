@@ -28,7 +28,7 @@ Usage:
 */
 function displayWeatherMap(address){
 	var map;
-	var openWeatherMapKey = "1d76ad8dbd7721d3ef6fdd670d748b91";	//<-replace it with your key
+	var openWeatherMapKey = "[your key]";	//<-replace it with your key
 
 	///1.create popupwindow in body element
 	 $('#weatherMapPopupWindow').remove();
