@@ -16,7 +16,7 @@ Function:
 4.you can pass a address and it will display the address's weather info on the map
 5.the weather info is 5 days/3 hour forecast, provided by http://api.openweathermap.org
 
-Uasage:
+Usage:
 1.you should replace the openWeatherMapKey with yours. rigester your key on the http://api.openweathermap.org
 2.JQuery required, add JQury to your html
 3.Include <script src="https://maps.googleapis.com/maps/api/js?key=[YourGoogleApiKey]"></script>
@@ -28,9 +28,10 @@ Uasage:
 */
 function displayWeatherMap(address){
 	var map;
-	var openWeatherMapKey = "[your key]";	//<-replace it with your key
+	var openWeatherMapKey = "1d76ad8dbd7721d3ef6fdd670d748b91";	//<-replace it with your key
 
 	///1.create popupwindow in body element
+	 $('#weatherMapPopupWindow').remove();
      $('body').append(
         $('<div id="weatherMapPopupWindow"/>')
       );
@@ -55,8 +56,8 @@ function displayWeatherMap(address){
     
     
 	///3.create the map object
-	var lat= 41.01776;
-	var lng= -91.9674;
+	var lat= 41.8781;
+	var lng= 87.6298;
 	var mapOptions = {zoom: 8,center: {lat:lat,lng:lng}};
 	var mapContainer=document.getElementById("mapContainer");
 	map = new google.maps.Map(mapContainer,mapOptions);
