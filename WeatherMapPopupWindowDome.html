@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather Map Popup Window Demo</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCgQZB1ebGaBuUrgmkPaj-SxdkHm_TXtx8"></script>
+	<script src="WeatherMapPopupWindow.js"></script>
+	<link rel="stylesheet" type="text/css" href="WeatherMapPopupWindow.css"/>
+</head>
+<body>
+<input onclick="displayWeatherMap('Fairfield,IA')" type="button" value="FairfieldWeatherMap"/>
+<br/>
+<input type="text" name="city" value="Iowa City">
+<input type="text" name="state" value="IA">
+<input onclick="displayWeatherMapByElementName('city','state')" type="button" value="WeatherMap"/>
+
+</body>
+</html>
