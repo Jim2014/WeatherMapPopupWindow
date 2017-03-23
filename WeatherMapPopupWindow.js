@@ -23,11 +23,12 @@ Uasage:
   apply your google api key replace the [YourGoogleApiKey]
 4.include WeatherMapPopupWindow.css to your html
 5.include this js file and call this function
+6.any issues or suggestion, please submit to https://github.com/Jim2014/WeatherMapPopupWindow, thank you
 
 */
 function displayWeatherMap(address){
 	var map;
-	var openWeatherMapKey = "1d76ad8dbd7721d3ef6fdd670d748b91";	//<-replace it with your key
+	var openWeatherMapKey = "[your key]";	//<-replace it with your key
 
 	///1.create popupwindow in body element
      $('body').append(
