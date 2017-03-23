@@ -1,7 +1,7 @@
 # WeatherMapPopupWindow
 display WeatherMapPopupWindow by javascript
-## [DEMO](http://jim2014.github.io/weathermap/WeatherMapPopupWindowDome.html)
-
+## DEMO
+<a href="http://jim2014.github.io/weathermap/WeatherMapPopupWindowDome.html" target="_blank">demo</a>
 ## Function:
 1. diaply a popup map window on your html page
 2. user can input address and search weacher on the popup window
